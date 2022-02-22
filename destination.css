@@ -1,0 +1,95 @@
+
+body{
+    background-image: url("background-destination-desktop.jpg");
+    font-family:'Times New Roman', Times, serif
+}
+.navhead{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navhead .nav{
+    margin-top: 20px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(105px);
+    backdrop-filter: blur(105px);
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 15px;
+    font-size: small;
+}
+a span{
+    padding: 0px 5px;
+}
+.nav a:last-child{
+    margin-right: 100px;
+}
+.nav a:first-child{
+    margin-left: 70px;
+}
+.nav a.active{
+    border-bottom: white solid 3px;  
+}
+.pick{
+    border-top: rgba(255, 255, 255, 0.2) 1px solid;
+    color: white;
+    margin: 20px 0 40px 170px;
+    width: 40%;
+    position: absolute;
+    top: 48px;
+    padding-top: 85px;
+    letter-spacing: 3px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 120px 100px 50px 140px;
+}
+.others{
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    padding-left: 30px;
+}
+.other .top{
+    display: flex;
+    flex-direction: row;
+}
+.top a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: small;
+}
+.top a.active{
+    border-bottom: white solid 3px;  
+}
+.mid1{
+    color: white;
+    font-size: 85px;
+    padding: 45px 0px;
+}
+.mid2{
+    color: white;
+    font-size: medium;
+    padding-bottom: 70px;
+    overflow-wrap: break-word;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+.bot{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 20px;
+}
+.drt{
+    font-size: 11px;
+}
+.val{
+    font-size: 22px;
+    line-height: 1px;
+}
